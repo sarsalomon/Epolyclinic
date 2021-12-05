@@ -1,0 +1,20 @@
+body{
+    background: rgba(245,247,251,255);
+}
+.card-shadow{
+    -webkit-box-shadow: 0px 5px 29px 4px rgba(34, 60, 80, 0.28);
+    -moz-box-shadow: 0px 5px 29px 4px rgba(34, 60, 80, 0.28);
+    box-shadow: 0px 5px 29px 4px rgba(34, 60, 80, 0.28);
+}
+.count-badge{
+    --bs-bg-opacity: 1;
+    background-color: #0d6efd;
+    display: inline-block;
+    padding: .35em .65em;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
