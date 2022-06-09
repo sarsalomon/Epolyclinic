@@ -61,7 +61,7 @@ class doctorController{
     }
 
     async RedirectAthor(req,res,next){
-        const {id,departementId,departementName,doctorId,doctorName,comment,queue,olddoctor} = req.body
+        const {id, departementId, departementName, doctorId, doctorName, comment, queue, olddoctor} = req.body
         console.log(req.body)
         if(comment === 'undefined'){
             return next(ApiError.badRequest('Izohni yozing'))
